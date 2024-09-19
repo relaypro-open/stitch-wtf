@@ -5,9 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "terraform-stacks"
 version = "0.1.0"
-authors = [
-    { name="Ricard Bejarano" }
-]
+authors = [{ name = "Ricard Bejarano" }]
 description = "The Terraform code pre-processor"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -23,6 +21,8 @@ dependencies = [
     "Jinja2==3.1.4",
     "python-hcl2==4.3.5",
     "PyYAML==6.0.2",
+    "pytest==8.3.3",
+    "pytest-dir-equal==0.2.1",
 ]
 
 [project.scripts]
